@@ -60,11 +60,9 @@
           "
         >
           <h3 class="w-full font-bold text-2xl text-white leading-tight mb-2">
-            HOTEL AMANEE
+            UNVOIT.IO
           </h3>
-          <h4 class="w-full text-xl text-gray-100 leading-tight">
-            Bienvenido a
-          </h4>
+          <h4 class="w-full text-xl text-gray-100 leading-tight">vue.js</h4>
         </div>
         <svg
           class="
@@ -132,7 +130,7 @@
               hover:text-blue-900
               focus:text-blue-900
             "
-            href=""
+            href="#"
           >
             <span>Learn more about the project</span>
             <span class="text-xs ml-1">&#x279c;</span>
