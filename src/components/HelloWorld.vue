@@ -38,9 +38,9 @@ h1 {
   padding-bottom: 200px;
 }
 
-@media only screen and (max-width: 425px) and (min-width: 300px) {
+@media only screen and (max-width: 476px) and (min-width: 300px) {
   h1 {
-    font-size: 34px;
+    font-size: 14px;
     padding-left: 3%;
     padding-right: 3%;
   }
