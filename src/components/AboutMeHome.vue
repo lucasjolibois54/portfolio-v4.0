@@ -32,4 +32,12 @@
 .h2-padding {
   padding-top: 50px;
 }
+
+h2 {
+  font-size: 50px;
+}
+
+p {
+  font-size: 20px;
+}
 </style>
