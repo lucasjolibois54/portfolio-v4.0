@@ -1,5 +1,5 @@
 <template>
-  <div :class="{ changecolor: scrollPosition > 100 }" class="home">
+  <div :class="{ changecolor: scrollPosition > 70 }" class="home">
     <HelloWorld msg="Welcome to Your Vue.js App" />
     <AboutMeHome />
   </div>
