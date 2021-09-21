@@ -1,6 +1,10 @@
 <template>
   <div>
-    <img class="header-img" alt="Vue logo" src="../assets/header-1.png" />
+    <img
+      class="header-img content-center"
+      alt="Vue logo"
+      src="../assets/header-1.png"
+    />
     <div>
       <h1>
         My name is <span class="orange-text"> Lucas </span> & I’m a <br />
@@ -48,6 +52,7 @@ h1 {
     margin-top: 10rem;
     width: 55%;
     height: auto;
+    text-align: center;
   }
 }
 </style>
