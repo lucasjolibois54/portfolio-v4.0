@@ -34,12 +34,10 @@ export default {
 <style scoped>
 .home {
   background-color: #000;
-  color: white;
 }
 
 .changecolor {
   background-color: white;
-  color: #000;
   transition: 1.5s;
 }
 </style>
