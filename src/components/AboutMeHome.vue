@@ -5,12 +5,12 @@
       Hi! My name is Lucas and I enjoy designing & creating things that live on
       the internet. My interest in informatics started back in 2017 when I
       decided To study computer science in highschool. Back then I was building
-      & Developing circuits with arduino. — All of that led me to where I am
-      now! At the moment I am a student at Zealand Business Academy, studying
-      Multimedia designer. I have developed at larger reach of interest within
-      Web- development and graphic design. At the moment my biggest Interests
-      are in UX & UI- design, web- development, logo design, Graphic design and
-      things within that niche.
+      & Developing circuits with arduino. <br /><br />
+      — All of that led me to where I am now! At the moment I am a student at
+      Zealand Business Academy, studying Multimedia designer. I have developed
+      at larger reach of interest within Web- development and graphic design. At
+      the moment my biggest Interests are in UX & UI- design, web- development,
+      logo design, Graphic design and things within that niche.
     </p>
     <button id="pad-btn" class="btn-grad">Learn more about me</button>
   </div>
