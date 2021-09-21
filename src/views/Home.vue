@@ -2,6 +2,7 @@
   <div :class="{ changecolor: scrollPosition > 70 }" class="home">
     <HelloWorld msg="Welcome to Your Vue.js App" />
     <AboutMeHome />
+    <ProjectCards />
   </div>
 </template>
 
@@ -9,12 +10,14 @@
 // @ is an alias to /src
 import HelloWorld from "@/components/HelloWorld.vue";
 import AboutMeHome from "@/components/AboutMeHome.vue";
+import ProjectCards from "@/components/ProjectCards.vue";
 
 export default {
   name: "Home",
   components: {
     HelloWorld,
     AboutMeHome,
+    ProjectCards,
   },
   data() {
     return {
