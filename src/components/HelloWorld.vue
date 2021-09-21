@@ -37,4 +37,7 @@ h1 {
   height: auto;
   padding-bottom: 200px;
 }
+
+@media only screen and (max-width: 990px) and (min-width: 771px) {
+}
 </style>
