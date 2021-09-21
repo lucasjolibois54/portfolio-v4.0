@@ -7,6 +7,7 @@
         <span class="orange-text"> multimedia designer </span> student
       </h1>
     </div>
+    <img class="scroll-img" alt="Vue logo" src="../assets/scroll-icon@2x.png" />
   </div>
 </template>
 
@@ -27,7 +28,13 @@
 
 h1 {
   color: #fff;
-  padding-bottom: 200px;
   font-size: 40px;
+  padding-bottom: 100px;
+}
+
+.scroll-img {
+  width: 2%;
+  height: auto;
+  padding-bottom: 200px;
 }
 </style>
