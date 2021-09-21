@@ -38,6 +38,16 @@ h1 {
   padding-bottom: 200px;
 }
 
-@media only screen and (max-width: 990px) and (min-width: 771px) {
+@media only screen and (max-width: 425px) and (min-width: 300px) {
+  h1 {
+    font-size: 34px;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+  .header-img {
+    margin-top: 10rem;
+    width: 55%;
+    height: auto;
+  }
 }
 </style>
