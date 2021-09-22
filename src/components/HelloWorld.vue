@@ -20,39 +20,4 @@
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-.header-img {
-  margin-top: 10rem;
-  width: 15%;
-  height: auto;
-}
-
-.orange-text {
-  color: #d7793e;
-}
-
-h1 {
-  color: #fff;
-  font-size: 40px;
-  padding-bottom: 100px;
-}
-
-.scroll-img {
-  width: 2%;
-  height: auto;
-  padding-bottom: 200px;
-}
-
-@media only screen and (max-width: 476px) and (min-width: 300px) {
-  h1 {
-    font-size: 14px;
-    padding-left: 3%;
-    padding-right: 3%;
-  }
-  .header-img {
-    margin-top: 10rem;
-    width: 55%;
-    height: auto;
-    text-align: center;
-  }
-}
 </style>
