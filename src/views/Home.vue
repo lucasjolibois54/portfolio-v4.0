@@ -1,7 +1,13 @@
 <template>
-  <div :class="{ changecolor: scrollPosition > 70 }" class="home">
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+  <div>
+    <NavBar />
+    <HelloWorld
+      :class="{ changecolor: scrollPosition > 70 }"
+      class="home"
+      msg="Welcome to Your Vue.js App"
+    />
     <AboutMeHome />
+    <ProjectCards />
     <ProjectCards />
     <ContactMe />
   </div>
@@ -13,6 +19,7 @@ import HelloWorld from "@/components/HelloWorld.vue";
 import AboutMeHome from "@/components/AboutMeHome.vue";
 import ProjectCards from "@/components/ProjectCards.vue";
 import ContactMe from "@/components/ContactMe.vue";
+import NavBar from "@/components/NavBar.vue";
 
 export default {
   name: "Home",
@@ -21,6 +28,7 @@ export default {
     AboutMeHome,
     ProjectCards,
     ContactMe,
+    NavBar,
   },
   data() {
     return {
@@ -40,10 +48,12 @@ export default {
 <style scoped>
 .home {
   background-color: #000;
+  color: white;
 }
 
 .changecolor {
   background-color: white;
+  color: black;
   transition: 1.5s;
 }
 </style>
