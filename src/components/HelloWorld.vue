@@ -31,4 +31,17 @@
 .scroll-img {
   width: 2%;
 }
+
+.orange-text {
+  color: #d7793e;
+}
+@media only screen and (max-width: 450px) and (min-width: 300px) {
+  .header-img {
+    width: 36%;
+  }
+
+  .scroll-img {
+    width: 5%;
+  }
+}
 </style>
