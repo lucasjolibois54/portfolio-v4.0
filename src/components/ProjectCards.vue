@@ -130,9 +130,10 @@
               hover:text-blue-900
               focus:text-blue-900
             "
-            href="#"
           >
-            <span>Learn more about the project</span>
+            <router-link to="/About"
+              ><span>Learn more about the project</span></router-link
+            >
             <span class="text-xs ml-1">&#x279c;</span>
           </a>
         </div>
