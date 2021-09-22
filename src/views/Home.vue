@@ -10,6 +10,7 @@
     <ProjectCards header="UNVOIT.IO" />
     <ProjectCardscopy />
     <ContactMe />
+    <Footer />
   </div>
 </template>
 
@@ -21,6 +22,7 @@ import ProjectCards from "@/components/ProjectCards.vue";
 import ProjectCardscopy from "@/components/ProjectCardscopy.vue";
 import ContactMe from "@/components/ContactMe.vue";
 import NavBar from "@/components/NavBar.vue";
+import Footer from "@/components/Footer.vue";
 
 export default {
   name: "Home",
@@ -31,6 +33,7 @@ export default {
     ContactMe,
     NavBar,
     ProjectCardscopy,
+    Footer,
   },
   data() {
     return {
