@@ -3,6 +3,7 @@
     <HelloWorld msg="Welcome to Your Vue.js App" />
     <AboutMeHome />
     <ProjectCards />
+    <ContactMe />
   </div>
 </template>
 
@@ -11,6 +12,7 @@
 import HelloWorld from "@/components/HelloWorld.vue";
 import AboutMeHome from "@/components/AboutMeHome.vue";
 import ProjectCards from "@/components/ProjectCards.vue";
+import ContactMe from "@/components/ContactMe.vue";
 
 export default {
   name: "Home",
@@ -18,6 +20,7 @@ export default {
     HelloWorld,
     AboutMeHome,
     ProjectCards,
+    ContactMe,
   },
   data() {
     return {
