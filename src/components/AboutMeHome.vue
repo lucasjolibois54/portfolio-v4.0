@@ -12,7 +12,11 @@
       the moment my biggest Interests are in UX & UI- design, web- development,
       logo design, Graphic design and things within that niche.
     </p>
-    <button id="pad-btn" class="btn-grad">Learn more about me</button>
+    <router-link to="/About"
+      ><button id="pad-btn" class="btn-grad">
+        Learn more about me
+      </button></router-link
+    >
   </div>
 </template>
 
