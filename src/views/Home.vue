@@ -7,8 +7,8 @@
       msg="Welcome to Your Vue.js App"
     />
     <AboutMeHome />
-    <ProjectCards />
-    <ProjectCards />
+    <ProjectCards header="UNVOIT.IO" />
+    <ProjectCardscopy />
     <ContactMe />
   </div>
 </template>
@@ -18,6 +18,7 @@
 import HelloWorld from "@/components/HelloWorld.vue";
 import AboutMeHome from "@/components/AboutMeHome.vue";
 import ProjectCards from "@/components/ProjectCards.vue";
+import ProjectCardscopy from "@/components/ProjectCardscopy.vue";
 import ContactMe from "@/components/ContactMe.vue";
 import NavBar from "@/components/NavBar.vue";
 
@@ -29,6 +30,7 @@ export default {
     ProjectCards,
     ContactMe,
     NavBar,
+    ProjectCardscopy,
   },
   data() {
     return {
