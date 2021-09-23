@@ -26,7 +26,7 @@
 
 <style scoped>
 .width-hero {
-  max-width: 1300px;
+  max-width: 1400px;
   margin: 0 auto !important;
   float: none !important;
 }
@@ -70,6 +70,15 @@
 }
 
 @media only screen and (max-width: 1300px) and (min-width: 1200px) {
+  h2 {
+    font-size: 30px;
+    padding-right: 0px;
+    line-height: 33px;
+    padding-top: 40px;
+  }
+}
+
+@media (min-width: 1300) {
   h2 {
     font-size: 30px;
     padding-right: 0px;
