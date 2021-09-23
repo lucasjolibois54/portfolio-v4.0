@@ -1,5 +1,5 @@
 <template>
-  <h3 class="text-6xl pb-20 mt-40">
+  <h3 class="text-6xl pb-20 mt-48">
     HOW DID I DO IT? <br />
     HOW DID I DO IT? <br />
     HOW DID I DO IT? <br />
