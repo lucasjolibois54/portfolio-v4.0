@@ -86,4 +86,17 @@ p {
 #pad-btn {
   margin-bottom: 200px;
 }
+
+@media only screen and (max-width: 650px) and (min-width: 10px) {
+  p {
+    font-size: 18px;
+  }
+  .text-padding {
+    padding-right: 10%;
+    padding-left: 10%;
+  }
+  #pad-btn {
+    margin-bottom: 120px;
+  }
+}
 </style>
