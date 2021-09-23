@@ -1,24 +1,38 @@
 <template>
-  <footer class="flex justify-center px-4 text-gray-100 bg-gray-800">
-    <div class="container py-6">
-      <hr class="h-px mt-6 bg-gray-700 border-none" />
+  <div class="bg-gray-800">
+    <div class="width-hero">
+      <footer class="flex justify-center px-4 text-gray-100 bg-gray-800">
+        <div class="container py-6">
+          <hr class="h-px mt-6 bg-gray-700 border-none" />
 
-      <div class="flex flex-col items-center justify-between mt-6 md:flex-row">
-        <div>
-          <a href="#" class="text-xl font-bold">Lucas Bendix Jolibois</a>
-        </div>
-        <div class="flex mt-4 md:m-0">
-          <div class="-mx-4">
-            <a href="#" class="px-4 text-sm">About</a>
-            <a href="#" class="px-4 text-sm">Blog</a>
-            <a href="#" class="px-4 text-sm">News</a>
-            <a href="#" class="px-4 text-sm">Contact</a>
+          <div
+            class="flex flex-col items-center justify-between mt-6 md:flex-row"
+          >
+            <div>
+              <a href="#" class="text-xl font-bold">Lucas Bendix Jolibois</a>
+            </div>
+            <div class="flex mt-4 md:m-0">
+              <div class="-mx-4">
+                <a href="#" class="px-4 text-sm">About</a>
+                <a href="#" class="px-4 text-sm">Blog</a>
+                <a href="#" class="px-4 text-sm">News</a>
+                <a href="#" class="px-4 text-sm">Contact</a>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
+      </footer>
     </div>
-  </footer>
+  </div>
 </template>
+
+<style scoped>
+.width-hero {
+  max-width: 1400px;
+  margin: 0 auto !important;
+  float: none !important;
+}
+</style>
 
 <!--   <h1 class="text-center text-lg font-bold lg:text-2xl">
         Join 31,000+ other and never miss <br />
