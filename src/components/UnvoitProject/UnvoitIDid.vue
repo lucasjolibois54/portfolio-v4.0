@@ -16,7 +16,7 @@
         <div class="flex flex-col justify-center items-center">
           <img
             class="scroll-img w-11/12 h-auto pr-20"
-            :src="require('@/assets/UNVOIT-phone-side.gif')"
+            :src="require('@/assets/sec-unvoit-movie.gif')"
           />
         </div>
       </div>
