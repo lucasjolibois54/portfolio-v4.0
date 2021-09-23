@@ -22,8 +22,25 @@ const routes = [
 
 const router = new VueRouter({
   mode: 'history',
+  scrollBehavior: (to, from, savedPosition) => {
+    console.log(to, from);
+
+    if (to.name.startsWith('products') && from.name.startsWith('products')) {
+      return null;
+    }
+
+    return savedPosition || { x: 0, y: 0 };
+  },
+  routes,
+});
+
+/*
+const router = new VueRouter({
+  mode: 'history',
   base: process.env.BASE_URL,
   routes
 })
+*/
+
 
 export default router
