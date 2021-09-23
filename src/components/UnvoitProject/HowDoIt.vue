@@ -1,10 +1,12 @@
 <template>
-  <h3 class="text-6xl pb-20 mt-48">
-    HOW DID I DO IT? <br />
-    HOW DID I DO IT? <br />
-    HOW DID I DO IT? <br />
-    HOW DID I DO IT?
-  </h3>
+  <div class="width-hero">
+    <h3 class="text-6xl pb-20 mt-48">
+      HOW DID I DO IT? <br />
+      HOW DID I DO IT? <br />
+      HOW DID I DO IT? <br />
+      HOW DID I DO IT?
+    </h3>
+  </div>
 </template>
 
 <style>
@@ -12,6 +14,12 @@
 </style>
 
 <style scoped>
+.width-hero {
+  max-width: 1400px;
+  margin: 0 auto !important;
+  float: none !important;
+}
+
 h3 {
   font-family: "Kanit", sans-serif;
   color: black;
