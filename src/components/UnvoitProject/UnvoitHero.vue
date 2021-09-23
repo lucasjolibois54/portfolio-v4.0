@@ -48,11 +48,7 @@
 .orange-text {
   color: #d7793e;
 }
-@media only screen and (max-width: 450px) and (min-width: 300px) {
-  .header-img {
-    width: 36%;
-  }
-}
+
 @media only screen and (max-width: 650px) and (min-width: 10px) {
   h1 {
     font-size: 20px;
@@ -62,10 +58,18 @@
     margin-left: 0;
   }
 
+  img {
+    width: 80%;
+  }
+
   .program-used {
     justify-content: center;
     align-items: center;
     text-align: center;
+  }
+
+  p {
+    font-size: 14px;
   }
 }
 </style>
