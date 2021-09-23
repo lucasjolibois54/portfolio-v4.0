@@ -5,7 +5,7 @@
     <NavBar />
     <UnvoitHero :class="{ changecolor: scrollPosition > 70 }" class="home" />
     <UnvoitMeaning />
-
+    <HowDoIt />
     <Footer />
   </div>
 </template>
@@ -16,6 +16,7 @@ import UnvoitHero from "@/components/UnvoitProject/UnvoitHero.vue";
 import NavBar from "@/components/NavBar.vue";
 import Footer from "@/components/Footer.vue";
 import UnvoitMeaning from "@/components/UnvoitProject/UnvoitMeaning.vue";
+import HowDoIt from "@/components/UnvoitProject/HowDoIt.vue";
 
 export default {
   name: "Home",
@@ -24,6 +25,7 @@ export default {
     NavBar,
     Footer,
     UnvoitMeaning,
+    HowDoIt,
   },
   data() {
     return {
