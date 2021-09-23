@@ -19,4 +19,10 @@ h3 {
   -webkit-text-stroke-width: 1.5px;
   -webkit-text-stroke-color: #d7793e;
 }
+
+@media only screen and (max-width: 650px) and (min-width: 10px) {
+  h3 {
+    font-size: 38px;
+  }
+}
 </style>
