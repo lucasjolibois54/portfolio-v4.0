@@ -16,7 +16,7 @@
     </h2>
 
     <div>
-      <h2
+      <h3
         class="
           text-2xl
           flex flex-col
@@ -33,7 +33,20 @@
         well as designthing inwhich we used throughout the whole process. I’m
         pretty happy about the results of this project and there isn’t really
         much that could be improved.
-      </h2>
+      </h3>
     </div>
   </div>
 </template>
+
+<style scoped>
+@media only screen and (max-width: 650px) and (min-width: 10px) {
+  h3 {
+    font-size: 17px;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  h2 {
+    font-size: 27px;
+  }
+}
+</style>
