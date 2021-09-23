@@ -4,15 +4,15 @@
       <!-- Column Content -->
       <div class="flex flex-col justify-center items-center">
         <img
-          class="scroll-img w-5/12 h-auto"
-          :src="require('@/assets/unvoit-pc.png')"
+          class="scroll-img w-11/12 h-auto pl-20"
+          :src="require('@/assets/UNVOIT-phone-side.gif')"
         />
       </div>
     </div>
 
     <div class="w-full overflow-hidden md:w-1/2 lg:w-1/2 xl:w-1/2">
       <!-- Column Content -->
-      <h2 class="text-3xl">
+      <h2 class="text-3xl pr-40 pr-10 pt-10">
         The meaning of this project, was to develop an invoice management SPA
         SAAS web application, to help businesses manage their invoices for their
         clients as well as to send invoices and payment requests.
