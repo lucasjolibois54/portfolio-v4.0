@@ -1,3 +1,28 @@
 <template>
-  <div></div>
+  <div class="flex flex-wrap overflow-hidden mt-36 mb-36 ml-10 mr-10">
+    <div class="w-full overflow-hidden md:w-1/2 lg:w-1/2 xl:w-1/2">
+      <!-- Column Content -->
+      <div class="flex flex-col justify-center items-center">
+        <img
+          class="scroll-img w-5/12 h-auto"
+          :src="require('@/assets/unvoit-pc.png')"
+        />
+      </div>
+    </div>
+
+    <div class="w-full overflow-hidden md:w-1/2 lg:w-1/2 xl:w-1/2">
+      <!-- Column Content -->
+      <h2 class="text-3xl">
+        The meaning of this project, was to develop an invoice management
+        SPAprogram-used SAAS web application, to help businesses manage their
+        invoices for their clients as well as to send invoices and payment
+        requests.
+      </h2>
+    </div>
+  </div>
 </template>
+
+<style scoped>
+@media only screen and (max-width: 650px) and (min-width: 10px) {
+}
+</style>
