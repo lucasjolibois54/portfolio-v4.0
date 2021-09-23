@@ -3,11 +3,7 @@
 <template>
   <div>
     <NavBar />
-    <UnvoitHero
-      :class="{ changecolor: scrollPosition > 70 }"
-      class="home"
-      msg="Welcome to Your Vue.js App"
-    />
+    <UnvoitHero :class="{ changecolor: scrollPosition > 70 }" class="home" />
     <UnvoitMeaning />
 
     <Footer />
@@ -53,6 +49,7 @@ export default {
 .changecolor {
   background-color: white;
   color: black;
+  border: black;
   transition: 1.5s;
 }
 </style>
