@@ -1,15 +1,23 @@
 <template>
-  <div class="center bbc-w text-padding">
-    <h2 class="h2-padding">Let’s talk!</h2>
-    <p>
-      Contact me down bellow if you have any business propositions or if you
-      need an intern at the beginning of 2022.
-    </p>
-    <button id="pad-btn" class="btn-grad">Contact me</button>
+  <div class="width-hero">
+    <div class="center bbc-w text-padding">
+      <h2 class="h2-padding">Let’s talk!</h2>
+      <p>
+        Contact me down bellow if you have any business propositions or if you
+        need an intern at the beginning of 2022.
+      </p>
+      <button id="pad-btn" class="btn-grad">Contact me</button>
+    </div>
   </div>
 </template>
 
 <style scoped>
+.width-hero {
+  max-width: 1400px;
+  margin: 0 auto !important;
+  float: none !important;
+}
+
 .center {
   text-align: center;
 }
