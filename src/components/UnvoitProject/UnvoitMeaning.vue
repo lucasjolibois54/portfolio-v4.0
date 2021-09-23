@@ -14,7 +14,7 @@
       <!-- Column Content -->
       <h2 class="text-3xl pr-40 pt-10">
         The meaning of this project, was to develop an invoice management SPA
-        SAAS web application, to help businesses manage their invoices for their
+        SaaS web application, to help businesses manage their invoices for their
         clients as well as to send invoices and payment requests.
       </h2>
     </div>
@@ -24,5 +24,14 @@
 
 <style scoped>
 @media only screen and (max-width: 650px) and (min-width: 10px) {
+  h2 {
+    padding-right: 0;
+    padding-left: 0;
+    font-size: 22px;
+  }
+  img {
+    padding-right: 0;
+    padding-left: 0;
+  }
 }
 </style>
