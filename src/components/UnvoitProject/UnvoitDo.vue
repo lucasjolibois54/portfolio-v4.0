@@ -6,3 +6,12 @@
     />
   </div>
 </template>
+
+<style scoped>
+@media only screen and (max-width: 650px) and (min-width: 10px) {
+  img {
+    width: 80%;
+    padding-top: 70px;
+  }
+}
+</style>
