@@ -44,4 +44,28 @@
     width: 5%;
   }
 }
+@media only screen and (max-width: 385px) and (min-width: 259px) {
+  h1 {
+    font-size: 22px;
+    line-height: 27px;
+  }
+  .header-img {
+    width: 44%;
+  }
+  .scroll-img {
+    width: 5%;
+  }
+}
+@media only screen and (max-width: 258px) and (min-width: 10px) {
+  h1 {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .header-img {
+    width: 44%;
+  }
+  .scroll-img {
+    width: 5%;
+  }
+}
 </style>
