@@ -12,7 +12,7 @@
 
     <div class="w-full overflow-hidden md:w-1/2 lg:w-1/2 xl:w-1/2">
       <!-- Column Content -->
-      <h2 class="text-3xl pr-40 pr-10 pt-10">
+      <h2 class="text-3xl pr-40 pt-10">
         The meaning of this project, was to develop an invoice management SPA
         SAAS web application, to help businesses manage their invoices for their
         clients as well as to send invoices and payment requests.
