@@ -1,24 +1,26 @@
 <template>
-  <div class="flex flex-col">
-    <div>
-      <div class="hero-margin ml-40">
-        <h1 class="text-5xl pt-28 text-left">
-          A business based invoice management <br />
-          web app using vue.js and tailwind
-        </h1>
-        <div class="program-used flex flex-row space-x-4 pt-3">
-          <p class="p-border">Vue.js</p>
-          <p class="p-border">Tailwind</p>
-          <p class="p-border">Firebase</p>
+  <div class="bg-farve">
+    <div class="width-hero flex flex-col">
+      <div>
+        <div class="hero-margin ml-40">
+          <h1 class="text-5xl pt-28 text-left">
+            A business based invoice management <br />
+            web app using vue.js and tailwind
+          </h1>
+          <div class="program-used flex flex-row space-x-4 pt-3">
+            <p class="p-border">Vue.js</p>
+            <p class="p-border">Tailwind</p>
+            <p class="p-border">Firebase</p>
+          </div>
         </div>
       </div>
-    </div>
 
-    <div class="flex flex-col justify-center items-center">
-      <img
-        class="scroll-img w-5/12 h-auto pb-10 pt-10"
-        :src="require('@/assets/UNVOIT-header-mockup.gif')"
-      />
+      <div class="flex flex-col justify-center items-center">
+        <img
+          class="scroll-img w-5/12 h-auto pb-10 pt-10"
+          :src="require('@/assets/UNVOIT-header-mockup.gif')"
+        />
+      </div>
     </div>
   </div>
 </template>
@@ -38,6 +40,14 @@
 <style scoped>
 .header-img {
   width: 17%;
+}
+.bg-farve {
+  background-color: black;
+}
+.width-hero {
+  max-width: 1300px;
+  margin: 0 auto !important;
+  float: none !important;
 }
 
 .p-border {
@@ -70,6 +80,11 @@
 
   p {
     font-size: 14px;
+  }
+}
+@media only screen and (max-width: 900px) and (min-width: 651px) {
+  h1 {
+    font-size: 30px;
   }
 }
 </style>
