@@ -52,9 +52,7 @@
                   </li>
                 </ol>
                 <h2 class="post-title">
-                  <a href="/my-projects/raahandel.html">
-                    Råhandel food marketplace
-                  </a>
+                  <a> Råhandel food marketplace </a>
                 </h2>
               </figcaption>
             </figure>
@@ -79,7 +77,11 @@
                   </li>
                 </ol>
                 <h2 class="post-title">
-                  <a href="#" target="_blank">YBRNT Wordpress webshop </a>
+                  <a href="#" target="_blank">
+                    <router-link to="/Ybrnt"
+                      ><span>YBRNT Wordpress webshop </span></router-link
+                    >
+                  </a>
                 </h2>
               </figcaption>
             </figure>
@@ -101,7 +103,11 @@
                   </li>
                 </ol>
                 <h2 class="post-title">
-                  <a href="#"> UNVOIT.IO </a>
+                  <a href="#">
+                    <router-link to="/About"
+                      ><span>UNVOIT.IO Saas SPA </span></router-link
+                    >
+                  </a>
 
                   <!-- Skrmoptagelse-2021-05-04-kl-2002.gif -->
                 </h2>
