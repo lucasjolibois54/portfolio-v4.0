@@ -89,7 +89,7 @@
           <article>
             <figure>
               <a href="#">
-                <img src="bil.png" alt="" />
+                <img src="@/assets/previewed.png" alt="" />
               </a>
               <figcaption>
                 <ol class="post-categories">
@@ -101,7 +101,7 @@
                   </li>
                 </ol>
                 <h2 class="post-title">
-                  <a href="#">Results coming soon </a>
+                  <a href="#"> UNVOIT.IO </a>
 
                   <!-- Skrmoptagelse-2021-05-04-kl-2002.gif -->
                 </h2>
