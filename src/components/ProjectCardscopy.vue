@@ -38,7 +38,8 @@
             bg-blue-400 bg-opacity-30 bg-cover bg-bottom
           "
           style="
-            background-image: url(https://github.com/lucasjolibois54/portfolio-v4.0/blob/main/src/assets/previewed.png?raw=true);
+            padding-top: 360px;
+            background-image: url(https://github.com/lucasjolibois54/Portfolio-v2.0/blob/main/ybrnt-all-projects.png?raw=true);
             background-blend-mode: multiply;
           "
         ></div>
@@ -60,9 +61,9 @@
           "
         >
           <h3 class="w-full font-bold text-2xl text-white leading-tight mb-2">
-            UNVOIT.IO
+            YBRNT
           </h3>
-          <h4 class="w-full text-xl text-gray-100 leading-tight">vue.js</h4>
+          <h4 class="w-full text-xl text-gray-100 leading-tight">WordPress</h4>
         </div>
         <svg
           class="
@@ -113,13 +114,13 @@
             md:shadow-none
           "
         >
-          <h4 class="hidden md:block text-xl text-gray-400">Vue.js</h4>
+          <h4 class="hidden md:block text-xl text-gray-400">WordPress</h4>
           <h3 class="hidden md:block font-bold text-2xl text-gray-700">
-            UNVOIT.IO
+            YBRNT
           </h3>
           <p class="text-gray-600 text-justify">
-            A business based invoice management web app using vue.js and
-            tailwind
+            Poster webshop through WordPress, using custom styling code & local
+            server.
           </p>
           <a
             class="
