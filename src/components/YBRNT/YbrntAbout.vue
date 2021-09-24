@@ -3,7 +3,7 @@
     <div class="flex flex-wrap overflow-hidden mt-36 mb-36 ml-10 mr-10 nam-div">
       <div class="w-full overflow-hidden md:w-1/2 lg:w-1/2 xl:w-1/2">
         <!-- Column Content -->
-        <h2 class="text-3xl pl-40 pt-10">
+        <h2 class="text-2xl pl-40 pt-10">
           The meaning of this project was to develop and create a WordPress
           webshops through the local server, but using WP festures while adding
           custom code through Visual Studio Code. This would then give me the
@@ -18,8 +18,8 @@
 
         <div class="flex flex-col justify-center items-center">
           <img
-            class="scroll-img w-11/12 h-auto pr-20"
-            :src="require('@/assets/sec-unvoit-movie.gif')"
+            class="scroll-img w-11/12 h-auto pr-20 pt-14"
+            :src="require('@/assets/ybrnt-sql-one.gif')"
           />
         </div>
       </div>
