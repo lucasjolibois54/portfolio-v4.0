@@ -5,7 +5,7 @@
         <!-- Column Content -->
         <h2 class="text-2xl pl-40 pt-10">
           The meaning of this project was to develop and create a WordPress
-          webshops through the local server, but using WP festures while adding
+          webshop through the local server, by using WP features while adding
           custom code through Visual Studio Code. This would then give me the
           possibility to cusomize the webshop even more, using styling. On top
           of this we had to design The posters ourselfs as well as creating a
@@ -50,33 +50,33 @@
 @media only screen and (max-width: 1000px) and (min-width: 651px) {
   h2 {
     font-size: 20px;
-    padding-right: 5px;
+    padding-left: 5px;
     line-height: 25px;
   }
   img {
     width: 80%;
     margin-top: 30px;
-    padding-left: 5px;
+    padding-right: 5px;
   }
 }
 
 @media only screen and (max-width: 1200px) and (min-width: 1000px) {
   h2 {
     font-size: 30px;
-    padding-right: 5px;
+    padding-left: 5px;
     line-height: 33px;
   }
   img {
     width: 80%;
     margin-top: 40px;
-    padding-left: 5px;
+    padding-right: 5px;
   }
 }
 
 @media only screen and (max-width: 1300px) and (min-width: 1200px) {
   h2 {
     font-size: 30px;
-    padding-right: 0px;
+    padding-left: 0px;
     line-height: 33px;
     padding-top: 40px;
   }
