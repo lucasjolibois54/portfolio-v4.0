@@ -17,7 +17,7 @@
       <div class="flex flex-col justify-center items-center">
         <img
           class="scroll-img w-5/12 h-auto pb-10 pt-10"
-          :src="require('@/assets/UNVOIT-header-mockup.gif')"
+          :src="require('@/assets/raahandel-hero-vid-one.gif')"
         />
       </div>
     </div>
