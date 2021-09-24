@@ -39,7 +39,11 @@
           <article>
             <figure>
               <a href="/my-projects/raahandel.html">
-                <img src="@/assets/Råhandel-cover.png" alt="" />
+                <router-link to="/Raahandel"
+                  ><span>
+                    <img src="@/assets/Råhandel-cover.png" alt="" />
+                  </span>
+                </router-link>
               </a>
               <figcaption>
                 <ol class="post-categories">
