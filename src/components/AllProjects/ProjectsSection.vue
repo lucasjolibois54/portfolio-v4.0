@@ -89,7 +89,7 @@
           <article>
             <figure>
               <a href="#">
-                <img src="@/assets/previewed.png" alt="" />
+                <img src="@/assets/previeweds.png" alt="" />
               </a>
               <figcaption>
                 <ol class="post-categories">
@@ -109,44 +109,31 @@
             </figure>
           </article>
         </li>
-        <li class="post" data-category="Logo">
+        <li class="post" data-category="Logo UX ">
           <article>
             <figure>
-              <a href="/my-projects/bun.html">
-                <img src="Bun-bun.png" alt="" />
+              <a href="/my-projects/shape.html">
+                <img src="@/assets/Shape.png" alt="" />
               </a>
               <figcaption>
                 <ol class="post-categories">
+                  <li>
+                    <a href="">UX</a>
+                  </li>
                   <li>
                     <a href="">Logo design</a>
                   </li>
                 </ol>
                 <h2 class="post-title">
-                  <a href="/my-projects/bun.html">Bunny caffee: Logo </a>
+                  <a href="/my-projects/shape.html"
+                    >Shape it up: Logo design & web design
+                  </a>
                 </h2>
               </figcaption>
             </figure>
           </article>
         </li>
-        <li class="post" data-category="Logo">
-          <article>
-            <figure>
-              <a href="/my-projects/xplr.html">
-                <img src="XPLR-LOG.png" alt="" />
-              </a>
-              <figcaption>
-                <ol class="post-categories">
-                  <li>
-                    <a href="">Logo design</a>
-                  </li>
-                </ol>
-                <h2 class="post-title">
-                  <a href="/my-projects/xplr.html">XPLORER: Logo </a>
-                </h2>
-              </figcaption>
-            </figure>
-          </article>
-        </li>
+
         <li class="post" data-category="Photo-Vid">
           <article>
             <figure>
@@ -169,11 +156,31 @@
             </figure>
           </article>
         </li>
+
+        <li class="post" data-category="Logo">
+          <article>
+            <figure>
+              <a href="/my-projects/xplr.html">
+                <img src="@/assets/coming-soon.png" alt="" />
+              </a>
+              <figcaption>
+                <ol class="post-categories">
+                  <li>
+                    <a href="">Logo design</a>
+                  </li>
+                </ol>
+                <h2 class="post-title">
+                  <a href="/my-projects/xplr.html">XPLORER: Logo </a>
+                </h2>
+              </figcaption>
+            </figure>
+          </article>
+        </li>
         <li class="post" data-category="Photo-Vid Graphic Web">
           <article>
             <figure>
               <a href="intentionerne.html">
-                <img src="varm-log.png" alt="" />
+                <img src="@/assets/coming-soon.png" alt="" />
               </a>
               <figcaption>
                 <ol class="post-categories">
@@ -205,7 +212,7 @@
           <article>
             <figure>
               <a href="/my-projects/pizza.html">
-                <img src="Piz-log.png " alt="" />
+                <img src="@/assets/coming-soon.png" alt="" />
               </a>
               <figcaption>
                 <ol class="post-categories">
@@ -226,7 +233,7 @@
           <article>
             <figure>
               <a href="/my-projects/ab.html">
-                <img src="Above-log.png" alt="" />
+                <img src="@/assets/coming-soon.png" alt="" />
               </a>
               <figcaption>
                 <ol class="post-categories">
@@ -247,7 +254,7 @@
           <article>
             <figure>
               <a href="/my-projects/shape.html">
-                <img src="@/assets/Shape.png" alt="" />
+                <img src="@/assets/coming-soon.png" alt="" />
               </a>
               <figcaption>
                 <ol class="post-categories">
