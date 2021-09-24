@@ -132,7 +132,7 @@
               focus:text-blue-900
             "
           >
-            <router-link to="/About"
+            <router-link to="/Ybrnt"
               ><span>Learn more about the project</span></router-link
             >
             <span class="text-xs ml-1">&#x279c;</span>
