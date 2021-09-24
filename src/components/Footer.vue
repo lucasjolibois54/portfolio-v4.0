@@ -13,10 +13,10 @@
             </div>
             <div class="flex mt-4 md:m-0">
               <div class="-mx-4">
-                <a href="#" class="px-4 text-sm">About</a>
-                <a href="#" class="px-4 text-sm">Blog</a>
-                <a href="#" class="px-4 text-sm">News</a>
+                <a href="#" class="px-4 text-sm">Home</a>
+                <a href="#" class="px-4 text-sm">Projects</a>
                 <a href="#" class="px-4 text-sm">Contact</a>
+                <a href="#" class="px-4 text-sm">LinkedIn</a>
               </div>
             </div>
           </div>
