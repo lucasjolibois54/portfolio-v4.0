@@ -52,7 +52,11 @@
                   </li>
                 </ol>
                 <h2 class="post-title">
-                  <a> Råhandel food marketplace </a>
+                  <router-link to="/Raahandel"
+                    ><span
+                      ><a> Råhandel food marketplace </a>
+                    </span></router-link
+                  >
                 </h2>
               </figcaption>
             </figure>
@@ -62,7 +66,10 @@
           <article>
             <figure>
               <a href="/my-projects/YBRNT.html">
-                <img src="@/assets/ybrnt-all-projects.png" alt="" />
+                <router-link to="/Ybrnt"
+                  ><span
+                    ><img src="@/assets/ybrnt-all-projects.png" alt="" /> </span
+                ></router-link>
               </a>
               <figcaption>
                 <ol class="post-categories">
@@ -91,7 +98,9 @@
           <article>
             <figure>
               <a href="#">
-                <img src="@/assets/previeweds.png" alt="" />
+                <router-link to="/About"
+                  ><span> <img src="@/assets/previeweds.png" alt="" /> </span
+                ></router-link>
               </a>
               <figcaption>
                 <ol class="post-categories">
