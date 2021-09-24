@@ -5,6 +5,10 @@
     <NavBar />
     <YbrntHero :class="{ changecolor: scrollPosition > 70 }" class="home" />
     <YbrntAbout />
+    <HowDoItYbrnt />
+    <YbrntDo />
+    <YbrntMeaning />
+    <YbrntConclusion />
     <Footer />
   </div>
 </template>
@@ -15,6 +19,10 @@ import YbrntHero from "@/components/YBRNT/YbrntHero.vue";
 import NavBar from "@/components/NavBar.vue";
 import Footer from "@/components/Footer.vue";
 import YbrntAbout from "@/components/YBRNT/YbrntAbout.vue";
+import HowDoItYbrnt from "@/components/YBRNT/HowDoItYbrnt.vue";
+import YbrntDo from "@/components/YBRNT/YbrntDo.vue";
+import YbrntMeaning from "@/components/YBRNT/YbrntMeaning.vue";
+import YbrntConclusion from "@/components/YBRNT/YbrntConclusion.vue";
 
 export default {
   name: "Home",
@@ -23,6 +31,10 @@ export default {
     NavBar,
     Footer,
     YbrntAbout,
+    HowDoItYbrnt,
+    YbrntDo,
+    YbrntMeaning,
+    YbrntConclusion,
   },
   data() {
     return {
