@@ -6,7 +6,7 @@
         <h2 class="text-3xl pl-40 pt-10">
           I developed the web application Using Vue.js, and on top of that i
           Added a CSS library called tailwind and used firebase for the sign up
-          fuctionality on the SaaS we app.
+          fuctionality on the SaaS web app.
         </h2>
       </div>
 
