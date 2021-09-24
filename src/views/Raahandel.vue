@@ -3,38 +3,29 @@
 <template>
   <div>
     <NavBar />
-    <YbrntHero :class="{ changecolor: scrollPosition > 70 }" class="home" />
-    <YbrntAbout />
-    <HowDoItYbrnt />
-    <YbrntDo />
-    <YbrntMeaning />
-    <YbrntConclusion />
+    <RaahandelHero :class="{ changecolor: scrollPosition > 70 }" class="home" />
+    <RaahandelAbout />
+    <RaahandelHowDoIt />
     <Footer />
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import YbrntHero from "@/components/YBRNT/YbrntHero.vue";
+import RaahandelHero from "@/components/Raahandel/RaahandelHero.vue";
 import NavBar from "@/components/NavBar.vue";
 import Footer from "@/components/Footer.vue";
-import YbrntAbout from "@/components/YBRNT/YbrntAbout.vue";
-import HowDoItYbrnt from "@/components/YBRNT/HowDoItYbrnt.vue";
-import YbrntDo from "@/components/YBRNT/YbrntDo.vue";
-import YbrntMeaning from "@/components/YBRNT/YbrntMeaning.vue";
-import YbrntConclusion from "@/components/YBRNT/YbrntConclusion.vue";
+import RaahandelAbout from "@/components/Raahandel/RaahandelAbout.vue";
+import RaahandelHowDoIt from "@/components/Raahandel/RaahandelHowDoIt.vue";
 
 export default {
   name: "Home",
   components: {
-    YbrntHero,
     NavBar,
+    RaahandelHero,
+    RaahandelAbout,
+    RaahandelHowDoIt,
     Footer,
-    YbrntAbout,
-    HowDoItYbrnt,
-    YbrntDo,
-    YbrntMeaning,
-    YbrntConclusion,
   },
   data() {
     return {
