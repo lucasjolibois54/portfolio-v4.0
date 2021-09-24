@@ -4,6 +4,7 @@
   <div>
     <NavBar />
     <YbrntHero :class="{ changecolor: scrollPosition > 70 }" class="home" />
+    <YbrntAbout />
     <Footer />
   </div>
 </template>
@@ -13,6 +14,7 @@
 import YbrntHero from "@/components/YBRNT/YbrntHero.vue";
 import NavBar from "@/components/NavBar.vue";
 import Footer from "@/components/Footer.vue";
+import YbrntAbout from "@/components/YBRNT/YbrntAbout.vue";
 
 export default {
   name: "Home",
@@ -20,6 +22,7 @@ export default {
     YbrntHero,
     NavBar,
     Footer,
+    YbrntAbout,
   },
   data() {
     return {
