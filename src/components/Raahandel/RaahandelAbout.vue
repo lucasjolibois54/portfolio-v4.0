@@ -6,7 +6,7 @@
         <div class="flex flex-col justify-center items-center">
           <img
             class="scroll-img w-11/12 h-auto pl-20"
-            :src="require('@/assets/UNVOIT-phone-side.gif')"
+            :src="require('@/assets/raahandel-xd-two.gif')"
           />
         </div>
       </div>
@@ -18,7 +18,8 @@
           delivery and payment of food from small and medium-sized producers to
           business customers within retail and HORECA. Raahandel needed to
           improve their user experience and the design of their web page in
-          order to better fit to their custumers and brand.
+          order to better fit to their custumers and brand. I worked on the
+          mockup through Adobe XD.
         </h2>
       </div>
     </div>
