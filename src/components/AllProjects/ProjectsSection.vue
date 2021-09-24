@@ -151,7 +151,10 @@
           <article>
             <figure>
               <a href="/my-projects/you.html">
-                <img src="vid-cover.png" alt="" />
+                <img
+                  src="@/assets/Skærmbillede 2021-05-01 kl. 11.40.59.png"
+                  alt=""
+                />
               </a>
               <figcaption>
                 <ol class="post-categories">
@@ -268,7 +271,7 @@
           <article>
             <figure>
               <a href="#">
-                <img src="wolf-log.png" alt="" />
+                <img src="@/assets/coming-soon.png" alt="" />
               </a>
               <figcaption>
                 <ol class="post-categories">
@@ -294,7 +297,7 @@
           <article>
             <figure>
               <a href="">
-                <img src="coming-soon.png" alt="" />
+                <img src="@/assets/coming-soon.png" alt="" />
               </a>
               <figcaption>
                 <ol class="post-categories">
