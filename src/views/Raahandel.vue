@@ -6,6 +6,9 @@
     <RaahandelHero :class="{ changecolor: scrollPosition > 70 }" class="home" />
     <RaahandelAbout />
     <RaahandelHowDoIt />
+    <RaahandelImg />
+    <RaahandelDid />
+    <RaahandelConclusion />
     <Footer />
   </div>
 </template>
@@ -17,6 +20,9 @@ import NavBar from "@/components/NavBar.vue";
 import Footer from "@/components/Footer.vue";
 import RaahandelAbout from "@/components/Raahandel/RaahandelAbout.vue";
 import RaahandelHowDoIt from "@/components/Raahandel/RaahandelHowDoIt.vue";
+import RaahandelImg from "@/components/Raahandel/RaahandelImg.vue";
+import RaahandelDid from "@/components/Raahandel/RaahandelDid.vue";
+import RaahandelConclusion from "@/components/Raahandel/RaahandelConclusion.vue";
 
 export default {
   name: "Home",
@@ -25,6 +31,9 @@ export default {
     RaahandelHero,
     RaahandelAbout,
     RaahandelHowDoIt,
+    RaahandelImg,
+    RaahandelDid,
+    RaahandelConclusion,
     Footer,
   },
   data() {
