@@ -40,9 +40,9 @@
             <a href="#" class="py-5 px-3 text-gray-700 hover:text-gray-900"
               >Features</a
             >
-            <a href="#" class="py-5 px-3 text-gray-700 hover:text-gray-900"
-              >Pricing</a
-            >
+            <a href="#" class="py-5 px-3 text-gray-700 hover:text-gray-900">
+              <router-link to="/Projects"><span>Projects</span></router-link>
+            </a>
           </div>
         </div>
 
