@@ -5,7 +5,7 @@
         <img
           class="header-img h-auto pb-10 pt-20"
           alt="Vue logo"
-          src="../assets/header-1.png"
+          src="../assets/portfolio-img-two.png"
         />
         <div>
           <h1 class="text-3xl">
@@ -34,7 +34,7 @@
 }
 
 .header-img {
-  width: 17%;
+  width: 30%;
 }
 
 .scroll-img {
@@ -46,7 +46,7 @@
 }
 @media only screen and (max-width: 450px) and (min-width: 300px) {
   .header-img {
-    width: 36%;
+    width: 50%;
   }
 
   .scroll-img {
@@ -59,7 +59,7 @@
     line-height: 27px;
   }
   .header-img {
-    width: 44%;
+    width: 54%;
   }
   .scroll-img {
     width: 5%;
@@ -71,7 +71,7 @@
     line-height: 25px;
   }
   .header-img {
-    width: 44%;
+    width: 54%;
   }
   .scroll-img {
     width: 5%;
