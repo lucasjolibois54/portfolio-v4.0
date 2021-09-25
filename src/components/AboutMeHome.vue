@@ -11,7 +11,7 @@
         Zealand Business Academy, studying Multimedia designer. I have developed
         at larger reach of interest within Web- development and graphic design.
         At the moment my biggest interests are in UX & UI- design, web-
-        development, logo design, Graphic design and things within that niche.
+        development, logo design, graphic design and things within that niche.
       </p>
       <router-link to="/AboutMe"
         ><button id="pad-btn" class="btn-grad">
