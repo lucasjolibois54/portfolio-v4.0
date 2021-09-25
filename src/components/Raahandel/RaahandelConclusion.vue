@@ -31,7 +31,7 @@
             "
           >
             This was an interesting project, as i presented the results of me
-            designs to the owner of Raahandler, in which he really seemed to
+            designs to the owner of Raahandel, in which he really seemed to
             like. Unfortunately they weren't ready for a total redesign as they
             didn't quite have that resources for that just yet.
           </h3>
