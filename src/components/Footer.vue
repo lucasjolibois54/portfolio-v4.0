@@ -15,7 +15,7 @@
               <div class="-mx-4">
                 <a href="#" class="px-4 text-sm">Home</a>
                 <a href="#" class="px-4 text-sm">Projects</a>
-                <a href="#" class="px-4 text-sm">Contact</a>
+                <a href="#" class="px-4 text-sm">About me</a>
                 <a href="#" class="px-4 text-sm">LinkedIn</a>
               </div>
             </div>
