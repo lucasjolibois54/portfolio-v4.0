@@ -9,14 +9,33 @@
             class="flex flex-col items-center justify-between mt-6 md:flex-row"
           >
             <div>
-              <a href="#" class="text-xl font-bold">Lucas Bendix Jolibois</a>
+              <a href="#" class="text-xl font-bold"
+                ><router-link to="/"
+                  ><span>Lucas Bendix Jolibois</span>
+                </router-link></a
+              >
             </div>
             <div class="flex mt-4 md:m-0">
               <div class="-mx-4">
-                <a href="#" class="px-4 text-sm">Home</a>
-                <a href="#" class="px-4 text-sm">Projects</a>
-                <a href="#" class="px-4 text-sm">About me</a>
-                <a href="#" class="px-4 text-sm">LinkedIn</a>
+                <a class="px-4 text-sm"
+                  ><router-link to="/"><span>Home </span> </router-link>
+                </a>
+                <a class="px-4 text-sm"
+                  ><router-link to="/Projects"
+                    ><span>Projects </span>
+                  </router-link>
+                </a>
+                <a class="px-4 text-sm"
+                  ><router-link to="/AboutMe"
+                    ><span>About me </span>
+                  </router-link>
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/lucas-bendix-jolibois-9b3550201"
+                  target="_blank"
+                  class="px-4 text-sm"
+                  >LinkedIn</a
+                >
               </div>
             </div>
           </div>
