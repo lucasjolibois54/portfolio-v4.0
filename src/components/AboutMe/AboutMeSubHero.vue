@@ -30,7 +30,7 @@
       <div class="w-full overflow-hidden md:w-1/2 lg:w-1/2 xl:w-1/2">
         <!-- Column Content -->
 
-        <div class="flex flex-col justify-center items-center">
+        <div class="img-center flex flex-col justify-center items-center">
           <img
             class="scroll-img w-11/12 h-auto pr-20"
             :src="require('@/assets/Me.png')"
@@ -68,6 +68,22 @@
     padding-left: 0;
     padding-top: 50px;
   }
+  .img-center {
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 767px) and (min-width: 651px) {
+  img {
+    padding: 0px;
+  }
+  h2 {
+    padding: 0px;
+    padding-top: 15px;
+  }
+  .about-me {
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
 }
 
 @media only screen and (max-width: 1000px) and (min-width: 651px) {
@@ -90,25 +106,85 @@
   }
 }
 
+@media only screen and (max-width: 832px) and (min-width: 768px) {
+  img {
+    padding-top: 20px;
+  }
+  .about-me {
+    font-size: 22px;
+    margin-bottom: 5px;
+  }
+}
+
+@media only screen and (max-width: 832px) and (min-width: 768px) {
+  .about-me {
+    font-size: 22px;
+    margin-bottom: 5px;
+  }
+}
+
+@media only screen and (max-width: 892px) and (min-width: 830px) {
+  img {
+    padding-top: 40px;
+  }
+  h2 {
+    padding-top: 70px;
+  }
+  .about-me {
+    font-size: 22px;
+    margin-bottom: 5px;
+  }
+}
+
 @media only screen and (max-width: 1200px) and (min-width: 1000px) {
   h2 {
-    font-size: 30px;
+    font-size: 20px;
     padding-right: 5px;
-    line-height: 33px;
+    line-height: 23px;
+  }
+  .about-me {
+    font-size: 30px;
   }
   img {
     width: 80%;
-    margin-top: 40px;
+    margin-top: 100px;
     padding-left: 5px;
   }
 }
 
 @media only screen and (max-width: 1300px) and (min-width: 1200px) {
   h2 {
-    font-size: 30px;
+    font-size: 20px;
     padding-right: 0px;
-    line-height: 33px;
+    line-height: 26px;
     padding-top: 40px;
+  }
+  .about-me {
+    font-size: 33px;
+  }
+}
+
+@media only screen and (max-width: 1380px) and (min-width: 1300px) {
+  h2 {
+    font-size: 20px;
+    padding-right: 0px;
+    line-height: 26px;
+    padding-top: 40px;
+  }
+  .about-me {
+    font-size: 33px;
+  }
+}
+
+@media only screen and (max-width: 980px) and (min-width: 900px) {
+  h2 {
+    font-size: 17px;
+    padding-right: 0px;
+    line-height: 20px;
+    padding-top: 40px;
+  }
+  .about-me {
+    font-size: 33px;
   }
 }
 
