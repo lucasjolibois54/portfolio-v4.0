@@ -9,7 +9,7 @@
         />
         <div>
           <h1 class="text-3xl">
-            Learn more <span class="orange-text"> About me </span>
+            Learn more <span class="orange-text"> about me </span>
           </h1>
         </div>
         <img
