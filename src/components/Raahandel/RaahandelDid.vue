@@ -17,7 +17,7 @@
 
         <div class="flex flex-col justify-center items-center">
           <img
-            class="scroll-img w-11/12 h-auto pr-20"
+            class="scroll-img w-11/12 h-auto"
             :src="require('@/assets/raahandel-did-one.gif')"
           />
         </div>
@@ -61,6 +61,7 @@
     width: 80%;
     margin-top: 30px;
     padding-left: 5px;
+    padding-right: 0px;
   }
 }
 
@@ -91,6 +92,7 @@
     margin-top: 40px;
     padding-left: 5px;
     padding-top: 60px;
+    padding-right: 3rem;
   }
 }
 
@@ -104,6 +106,7 @@
   }
   img {
     padding-top: 30px;
+    padding-right: 3rem;
   }
 }
 
@@ -114,6 +117,9 @@
     line-height: 33px;
     padding-top: 0px;
     padding-left: 8rem;
+  }
+  img {
+    padding-right: 3rem;
   }
 }
 </style>
