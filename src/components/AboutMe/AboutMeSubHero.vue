@@ -3,8 +3,8 @@
     <div class="flex flex-wrap overflow-hidden mt-36 mb-36 ml-10 mr-10 nam-div">
       <div class="w-full overflow-hidden md:w-1/2 lg:w-1/2 xl:w-1/2">
         <!-- Column Content -->
-        <h2 class="text-4xl pl-20 pt-10">About me:</h2>
-        <h2 class="text-2xl pl-20 pt-10">
+        <h2 class="about-me text-4xl pl-20 pt-10">About me:</h2>
+        <h2 class="about-text text-2xl pl-20 pt-10">
           Hi! My name is Lucas and I enjoy designing & creating things that live
           on the internet.
 
@@ -54,23 +54,39 @@
     padding-right: 0;
     padding-left: 0;
     font-size: 22px;
+    padding-top: 0px;
   }
+
+  .about-me {
+    font-size: 30px;
+    padding-bottom: 30px;
+    padding-top: 0px;
+  }
+
   img {
     padding-right: 0;
     padding-left: 0;
+    padding-top: 50px;
   }
 }
 
 @media only screen and (max-width: 1000px) and (min-width: 651px) {
   h2 {
-    font-size: 20px;
+    font-size: 15px;
     padding-right: 5px;
-    line-height: 25px;
+    line-height: 15px;
   }
   img {
     width: 80%;
-    margin-top: 30px;
+    margin-top: 50px;
     padding-left: 5px;
+  }
+  .about-me {
+    padding-bottom: 0px;
+  }
+
+  .about-text {
+    padding-top: 10px;
   }
 }
 
