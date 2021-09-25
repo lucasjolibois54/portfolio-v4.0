@@ -6,7 +6,7 @@
         Hi! My name is Lucas and I enjoy designing & creating things that live
         on the internet. My interest in informatics started back in 2017 when I
         decided To study computer science in highschool. Back then I was
-        building & Developing circuits with arduino. <br /><br />
+        building & developing circuits with arduino. <br /><br />
         — All of that led me to where I am now! At the moment I am a student at
         Zealand Business Academy, studying Multimedia designer. I have developed
         at larger reach of interest within Web- development and graphic design.
