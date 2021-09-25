@@ -15,7 +15,7 @@
 
         <div class="flex flex-col justify-center items-center">
           <img
-            class="scroll-img w-11/12 h-auto pr-20"
+            class="scroll-img w-11/12 h-auto"
             :src="require('@/assets/sec-unvoit-movie.gif')"
           />
         </div>
@@ -69,6 +69,7 @@
     padding-right: 5px;
     line-height: 25px;
     padding-left: 2rem;
+    padding-top: 104px;
   }
   img {
     width: 80%;
@@ -84,12 +85,14 @@
     padding-right: 5px;
     line-height: 33px;
     padding-left: 2px;
+    padding-top: 6rem;
   }
   img {
     width: 80%;
     margin-top: 40px;
     padding-left: 5px;
     padding-top: 60px;
+    padding-right: 5rem;
   }
 }
 
@@ -103,6 +106,7 @@
   }
   img {
     padding-top: 30px;
+    padding-right: 5rem;
   }
 }
 
