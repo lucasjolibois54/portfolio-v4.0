@@ -161,10 +161,7 @@
           <article>
             <figure>
               <a href="/my-projects/you.html">
-                <img
-                  src="@/assets/Skærmbillede 2021-05-01 kl. 11.40.59.png"
-                  alt=""
-                />
+                <img src="@/assets/coming-soon.png" alt="" />
               </a>
               <figcaption>
                 <ol class="post-categories">
