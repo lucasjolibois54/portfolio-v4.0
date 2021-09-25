@@ -132,7 +132,9 @@
           <article>
             <figure>
               <a href="/my-projects/shape.html">
-                <img src="@/assets/Shape.png" alt="" />
+                <router-link to="/Shape"
+                  ><span> <img src="@/assets/Shape.png" alt="" /> </span
+                ></router-link>
               </a>
               <figcaption>
                 <ol class="post-categories">
@@ -145,7 +147,9 @@
                 </ol>
                 <h2 class="post-title">
                   <a href="/my-projects/shape.html"
-                    >Shape it up: Logo design & web design
+                    ><router-link to="/Shape"
+                      ><span>Shape it up: Logo design & web design </span>
+                    </router-link>
                   </a>
                 </h2>
               </figcaption>
