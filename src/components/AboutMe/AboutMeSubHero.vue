@@ -13,7 +13,7 @@
 
           My interest in informatics started back in 2017 when I decided To
           study computer science in highschool. Back then I was building &
-          Developing circuits with arduino. — All of that led me to where I am
+          developing circuits with arduino. — All of that led me to where I am
           now!
 
           <br />
