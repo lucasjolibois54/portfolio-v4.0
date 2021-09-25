@@ -111,7 +111,7 @@
     font-size: 30px;
     padding-right: 0px;
     line-height: 33px;
-    padding-top: 0px;
+    padding-top: 55px;
     padding-left: 8rem;
   }
 }
