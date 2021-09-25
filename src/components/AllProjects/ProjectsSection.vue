@@ -1,7 +1,7 @@
 <template>
   <section class="author-archive">
     <div class="container">
-      <h1>All of my projects</h1>
+      <h1 class="text-2xl">All of my projects</h1>
       <input type="radio" id="All" name="categories" value="All" checked />
       <input type="radio" id="UX" name="categories" value="UX" />
       <input type="radio" id="Logo" name="categories" value="Logo" />
