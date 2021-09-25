@@ -10,7 +10,7 @@
         — All of that led me to where I am now! At the moment I am a student at
         Zealand Business Academy, studying Multimedia designer. I have developed
         at larger reach of interest within Web- development and graphic design.
-        At the moment my biggest Interests are in UX & UI- design, web-
+        At the moment my biggest interests are in UX & UI- design, web-
         development, logo design, Graphic design and things within that niche.
       </p>
       <router-link to="/AboutMe"
