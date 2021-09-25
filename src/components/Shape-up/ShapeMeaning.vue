@@ -58,7 +58,7 @@
 
 @media only screen and (max-width: 1200px) and (min-width: 1000px) {
   h2 {
-    font-size: 30px;
+    font-size: 26px;
     padding-right: 5px;
     line-height: 33px;
   }
