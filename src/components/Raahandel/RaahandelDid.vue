@@ -18,7 +18,7 @@
         <div class="flex flex-col justify-center items-center">
           <img
             class="scroll-img w-11/12 h-auto pr-20"
-            :src="require('@/assets/sec-unvoit-movie.gif')"
+            :src="require('@/assets/raahandel-did-one.gif')"
           />
         </div>
       </div>
