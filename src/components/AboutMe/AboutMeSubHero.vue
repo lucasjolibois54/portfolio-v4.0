@@ -23,7 +23,7 @@
           Multimedia designer. I have developed at larger reach of interest
           within web- development and graphic design. At the moment my biggest
           Interests are in UX & UI- design, web- development, logo design,
-          Graphic design and things within that niche.
+          graphic design and things within that niche.
         </h2>
       </div>
 
