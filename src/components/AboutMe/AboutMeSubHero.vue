@@ -21,7 +21,7 @@
 
           At the moment I am a student at Zealand Business Academy, studying
           Multimedia designer. I have developed at larger reach of interest
-          within Web- development and graphic design. At the moment my biggest
+          within web- development and graphic design. At the moment my biggest
           Interests are in UX & UI- design, web- development, logo design,
           Graphic design and things within that niche.
         </h2>
@@ -47,6 +47,13 @@
   max-width: 1400px;
   margin: 0 auto !important;
   float: none !important;
+}
+
+@media only screen and (max-width: 1000px) and (min-width: 976px) {
+  .about-me {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
 }
 
 @media only screen and (max-width: 650px) and (min-width: 10px) {
@@ -141,9 +148,10 @@
     font-size: 20px;
     padding-right: 5px;
     line-height: 23px;
+    padding-top: 30px;
   }
   .about-me {
-    font-size: 30px;
+    font-size: 27px;
   }
   img {
     width: 80%;
