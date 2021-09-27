@@ -7,10 +7,18 @@
       ><span class="navicon"></span
     ></label>
     <ul class="menu">
-      <li><a href="#work">Our Work</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#careers">Careers</a></li>
-      <li><a href="#contact">Contact</a></li>
+      <li>
+        <router-link to="/">Home</router-link>
+      </li>
+      <li><router-link to="/Projects">Projects</router-link></li>
+      <li><router-link to="/AboutMe">About me</router-link></li>
+      <li>
+        <a
+          href="https://www.linkedin.com/in/lucas-bendix-jolibois-9b3550201"
+          target="_blank"
+          >LinkedIn</a
+        >
+      </li>
     </ul>
   </header>
 </template>
