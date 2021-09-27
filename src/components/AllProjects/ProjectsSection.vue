@@ -180,8 +180,10 @@
         <li class="post" data-category="Logo">
           <article>
             <figure>
-              <a href="/my-projects/xplr.html">
-                <img src="@/assets/coming-soon.png" alt="" />
+              <a
+                ><router-link to="/Xplorer"
+                  ><span> <img src="@/assets/XPLR-LOG.png" alt="" /> </span
+                ></router-link>
               </a>
               <figcaption>
                 <ol class="post-categories">
@@ -190,7 +192,11 @@
                   </li>
                 </ol>
                 <h2 class="post-title">
-                  <a href="/my-projects/xplr.html">XPLORER: Logo </a>
+                  <a>
+                    <router-link to="/Xplorer"
+                      ><span>XPLORER: Logo </span></router-link
+                    ></a
+                  >
                 </h2>
               </figcaption>
             </figure>
