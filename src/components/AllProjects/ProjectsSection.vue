@@ -395,7 +395,7 @@ body {
 }
 
 h1 {
-  margin-top: 60px;
+  margin-top: 130px;
   text-align: center;
   margin-bottom: 2rem;
 }
