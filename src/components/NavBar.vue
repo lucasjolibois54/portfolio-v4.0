@@ -47,7 +47,7 @@ header li a {
   display: block;
   text-decoration: none;
   padding: 1rem;
-  border-right: 1px solid black;
+  /*border-right: 1px solid black;*/
 }
 
 .header li a:hover {
