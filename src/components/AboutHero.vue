@@ -3,7 +3,7 @@
     <div class="width-hero">
       <div class="flex flex-col justify-center items-center">
         <img
-          class="header-img h-auto pb-10 pt-20"
+          class="header-img h-auto pb-20 pt-20"
           alt="Vue logo"
           src="../assets/portfolio-img-two.png"
         />
@@ -35,10 +35,12 @@
 
 .header-img {
   width: 30%;
+  padding-top: 180px;
 }
 
 .scroll-img {
   width: 2%;
+  padding-bottom: 60px;
 }
 
 .orange-text {
