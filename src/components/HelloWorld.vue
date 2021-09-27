@@ -14,7 +14,7 @@
           </h1>
         </div>
         <img
-          class="scroll-img h-auto pb-10 pt-10"
+          class="scroll-img h-auto pb-20 pt-10"
           alt="Vue logo"
           src="../assets/scroll-icon@2x.png"
         />
@@ -36,6 +36,7 @@
 
 .header-img {
   width: 17%;
+  padding-top: 160px;
 }
 
 .scroll-img {
