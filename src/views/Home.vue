@@ -1,6 +1,6 @@
 <template>
   <div>
-    <NavBar />
+    <NavBar :class="{ changecolor: scrollPosition > 70 }" class="home" />
     <HelloWorld
       :class="{ changecolor: scrollPosition > 70 }"
       class="home"
