@@ -2,7 +2,7 @@
 
 <template>
   <div>
-    <NavBar />
+    <NavBar :class="{ changecolor: scrollPosition > 70 }" class="home" />
     <UnvoitHero :class="{ changecolor: scrollPosition > 70 }" class="home" />
     <UnvoitMeaning />
     <HowDoIt />
