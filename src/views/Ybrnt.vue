@@ -2,7 +2,7 @@
 
 <template>
   <div>
-    <NavBar />
+    <NavBar :class="{ changecolor: scrollPosition > 70 }" class="home" />
     <YbrntHero :class="{ changecolor: scrollPosition > 70 }" class="home" />
     <YbrntAbout />
     <HowDoItYbrnt />
