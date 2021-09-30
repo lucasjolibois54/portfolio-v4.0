@@ -28,6 +28,8 @@
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+
+
 .width-hero {
   max-width: 1400px;
   margin: 0 auto !important;
